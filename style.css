@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Lexend Deca", sans-serif;
+}
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background-color: #faf6ed;
+}
+#container {
+	display: flex;
+	background-color: #e28625;
+	border-radius: 8px 0 0 8px;
+}
+.alignment {
+	display: flex;
+	flex-direction: column;
+	padding: 48px;
+}
+h2 {
+	color: #f2f2f2;
+	font-family: Big Shoulders Display;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 35px 0 25px 0;
+}
+p {
+	color: #fff;
+	font-family: Lexend Deca;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-bottom: 83px;
+}
+img {
+	width: 64px;
+	height: 40px;
+	flex-shrink: 0;
+}
+#sedan {
+	width: 307px;
+	height: 500px;
+	border-radius: 8px 0 0 8px;
+	background: #e28625;
+	flex-shrink: 0;
+}
+#sedan > button {
+	color: #e28625;
+}
+#suv {
+	width: 307px;
+	height: 500px;
+	border-radius: 8px 0 0 8px;
+	background: #006971;
+	flex-shrink: 0;
+}
+#suv > button {
+	color: #006971;
+}
+#luxury {
+	width: 307px;
+	height: 500px;
+	border-radius: 0px 8px 8px 0px;
+	background: #004140;
+	flex-shrink: 0;
+}
+#luxury > button {
+	color: #004140;
+}
+button {
+	width: 146px;
+	height: 48px;
+	flex-shrink: 0;
+	border-radius: 25px;
+	background: #f2f2f2;
+	border: none;
+
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+}
+button:hover {
+	cursor: pointer;
+	border-radius: 25px;
+	border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff !important; 
+}
