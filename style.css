@@ -13,12 +13,12 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-    background-color: #faf6ed;
+    background-color: #F2F2F2;
 }
 #container {
 	display: flex;
 	background-color: #e28625;
-	border-radius: 8px 0 0 8px;
+	border-radius: 8px;
 }
 .alignment {
 	display: flex;
@@ -95,4 +95,29 @@ button:hover {
 	border: 2px solid #fff;
     background-color: transparent;
     color: #fff !important; 
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        height: auto;
+    }
+    #container{
+        flex-direction: column;
+        width: 375px;
+        padding: 88px 24px;
+        background-color: #F2F2F2;
+        justify-content: center;
+        align-items: center;
+    }
+    #sedan, #suv{
+        border-radius: 8px 8px 0px 0px;
+        height: 505px;
+    }
+    #luxury{
+        border-radius: 8px;
+        
+    }
+    #suv, #luxury{
+        margin-top: -5px;
+    }
 }
